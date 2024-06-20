@@ -11,7 +11,9 @@ function start() {
         startTime = Date.now() - elapsedTime;
         //console.log(startTime);
         timer = setInterval(update, 10);
-        console.log(timer);
+        //console.log(timer);
+        isRunning = true;
+        // because our timer is now running***
     }
 }
 
