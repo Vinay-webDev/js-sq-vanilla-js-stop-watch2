@@ -26,7 +26,10 @@ function restart() {
 }
 
 function update() {
+    const currentTime = Date.now();
+    elapsedTime = currentTime - startTime;
 
+    
 }
 
 
