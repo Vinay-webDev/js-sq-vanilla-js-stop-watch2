@@ -9,7 +9,9 @@ let isRunning = false;
 function start() {
     if (!isRunning) {
         startTime = Date.now() - elapsedTime;
-        console.log(startTime);
+        //console.log(startTime);
+        timer = setInterval(update, 10);
+        console.log(timer);
     }
 }
 
